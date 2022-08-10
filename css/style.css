@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  margin: 10% 36% 0 36%;
+  align-items: center;
+  border: 5px solid rgb(62, 61, 61);
+  background-color: antiquewhite;
+}
+.row {
+  padding-right: 5px;
+}
+.puppy-image {
+  width: 200px;
+  height: 350px;
+  margin-right: 20px;
+  padding: 6px 6px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rgb(67, 63, 63);
+  color: #fff;
+  width: 50px;
+  height: 25px;
+}
+label {
+  font-size: large;
+}
+
+input {
+  height: 23px;
+}
+#male {
+  height: 12px;
+  margin: 0 5px;
+}
+#female {
+  height: 12px;
+  margin: 0 5px;
+}
